@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Teko:wght@300&family=Ysabeau+Office:wght@700&display=swap');
+.head {
+    display: flex;
+    justify-content:flex-endf;
+    background-color: rgb(48, 46, 55);
+    padding: 8px;
+    /* align-items: center;  */
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav ul a {
+    margin-right: 20px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border-radius 0.3s; 
+
+}
+
+
+.tabs:hover{
+    background-color: red;
+    border-radius: 50px;
+}
+/* here search css start */
+
+
+.search-box {
+    display: inline;
+    background-color: white;
+    border: 2px solid #ff1414;
+    border-radius: 50px;
+    padding: 14px;
+
+}
+
+.search-box input[type="text"] {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 310px;
+}
+
+.search-box button {
+    background-color: #d73f3f;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 11px 20px;
+    cursor: context-menu;
+}
+/* a:hover{
+    background-color: red;
+    border-radius: 50px;
+} */
+
+body {
+    margin: 0;
+    /*Remove default body margin*/
+    font-family: 'Hubballi', sans-serifArial, Helvetica;
+    background-image: url('back2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content {
+    /* border: 2px solid rgb(40, 3, 96); */
+    padding: 20px;
+    margin: 0 auto;
+    /* padding: 1px; */
+    max-width:450px ;
+    margin-top: 112px;
+    justify-content: center;
+    text-align: center
+}
+.text,h1,h2,h4{
+    color: rgb(250, 250, 250);
+}
+h1{
+    font-size: 40px;
+    /* font-weight: 200px; */
+}
+p{
+    font-size: 20px;
+}
+
+.logo::after{
+    color: #fff;
+}
+
+footer{
+    /* border: 2px solid ; */
+    color: #fff;
+    margin-top: 20px 20px;
+    padding: 80px;
+}
+span{
+    color: red;
+}
+  h1{
+    color: #fa0707;
+}
+input{
+    border-radius: 50px;
+    border: none;
+    /* outline: none; */
+    /* font-size: 18px; */
+    /* margin: 20px ; */
+}
+
